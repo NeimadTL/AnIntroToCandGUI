@@ -68,5 +68,10 @@ int main (void)
   {
     printf("I couldn't find two values in that string.\n");
   }
+
+
+  // string's length/size
+  char string1[10] = "first";  
+  printf("The length of the string '%s' is %lu\n", string1, strlen(string1));
 }
 
